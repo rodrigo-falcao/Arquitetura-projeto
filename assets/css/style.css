@@ -1,0 +1,134 @@
+/* RESET GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+/* CABEÇALHO DO SITE */
+
+header {
+    height: 475px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+header h1{
+    margin-left: 62px;
+    padding-top: 200px;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+}
+
+header p {
+    margin-left: 62px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+}
+
+/* INFORMAÇÕES BÁSICAS */
+
+.infoSite {
+    height: 229px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.infoSite div {
+    width: 300px;
+}
+
+/* INFORMAÇÕES PRINCIPAIS */
+
+.bodySite {
+    background-color: #FFFFFF;
+    display: flex;
+    height: 779px;
+}
+
+.bodyImg img {
+    margin: 82px 54px 92px 64px;
+    width: 510px;
+    height: 605px;
+}
+
+.bodyInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.bodyInfo h2, p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    width: 635px;
+    text-align: justify;
+}
+
+.bodyInfo h2 {
+    font-weight: bold;
+    font-size: 36px;
+    width: 635px;
+    margin-bottom: 40px;
+}
+
+/* FORMULÁRIOS */
+
+footer {
+    height: 638px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h2 {
+    margin-top: 67px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+footer input {
+    width: 508px;
+    height: 72px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+footer button {
+    width: 286px;
+    height: 74px;
+    background: #C07212;
+    border-radius: 10px;
+    margin-top: 110px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
