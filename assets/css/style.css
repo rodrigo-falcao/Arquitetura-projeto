@@ -5,6 +5,13 @@
     font-family: 'Inter';
 }
 
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 60px;
+}
+
 /* CABEÇALHO DO SITE */
 
 header {
@@ -14,7 +21,6 @@ header {
 }
 
 header h1{
-    margin-left: 62px;
     padding-top: 200px;
     font-weight: 600;
     font-size: 60px;
@@ -23,7 +29,6 @@ header h1{
 }
 
 header p {
-    margin-left: 62px;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
@@ -32,9 +37,12 @@ header p {
 
 /* INFORMAÇÕES BÁSICAS */
 
-.infoSite {
+.infoBack {
     height: 229px;
     background-color: #F9F9F9;
+}
+
+.infoSite {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,58 +53,50 @@ header p {
     color: #000000;
 }
 
-.infoSite div {
-    width: 300px;
-}
-
 /* INFORMAÇÕES PRINCIPAIS */
 
 .bodySite {
     background-color: #FFFFFF;
     display: flex;
+    justify-content: space-between;
     height: 779px;
+    align-items: center;
 }
 
-.bodyImg img {
-    margin: 82px 54px 92px 64px;
+.bodyImg {
+
     width: 510px;
     height: 605px;
 }
 
-.bodyInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-}
-
-.bodyInfo h2, p {
+.bodySite h2,
+.bodySite p {
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
-    width: 635px;
     text-align: justify;
 }
 
-.bodyInfo h2 {
+.bodySite h2 {
     font-weight: bold;
     font-size: 36px;
-    width: 635px;
     margin-bottom: 40px;
 }
 
 /* FORMULÁRIOS */
 
-footer {
-    height: 638px;
+form {
     background-color: #303030;
+}
+
+.formContent {
+    height: 638px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-footer h2 {
+.formContent h2 {
     margin-top: 67px;
     color: #FFFFFF;
     font-weight: 700;
@@ -104,7 +104,7 @@ footer h2 {
     line-height: 150%;
 }
 
-footer input {
+.formContent input {
     width: 508px;
     height: 72px;
     border: none;
@@ -117,10 +117,11 @@ footer input {
     margin-top: 48px;
 }
 
-footer button {
+.formContent button {
     width: 286px;
     height: 74px;
     background: #C07212;
+    border: none;
     border-radius: 10px;
     margin-top: 110px;
 

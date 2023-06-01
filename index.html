@@ -14,27 +14,31 @@
 <body>
     <!-- CABEÇALHO DO SITE -->
     <header>
-        <h1>Tradição em projetos de arquitetura</h1>
-        <p>Arquitetura residencial e comercial. </p>
+        <div class="content">
+            <h1>Tradição em projetos de arquitetura</h1>
+            <p>Arquitetura residencial e comercial. </p>
+        </div>
     </header>
     <!-- INFORMAÇÕES BÁSICAS -->
-    <section class="infoSite">
-        <div>
-            <h2>850</h2>
-            <p>empreendimentos construídos</p>
-        </div>
-        <div>
-            <h2>40</h2>
-            <p>anos de mercado e experiência</p>
-        </div>
-        <div>
-            <h2>2,000,000</h2>
-            <p>m² em projetos construídos</p>
+    <section class="infoBack">
+        <div class="infoSite content">
+            <div>
+                <h2>850</h2>
+                <p>empreendimentos construídos</p>
+            </div>
+            <div>
+                <h2>40</h2>
+                <p>anos de mercado e experiência</p>
+            </div>
+            <div>
+                <h2>2,000,000</h2>
+                <p>m² em projetos construídos</p>
+            </div>
         </div>
     </section>
     <!-- INFORMAÇÕES PRINCIPAIS -->
-    <section class="bodySite">
-        <div class="bodyInfo">
+    <section class="bodySite content">
+        <div>
             <h2>Arquitetos com História e Experiência.</h2>
             <p>Nós realizamos desde 2002 projetos e gerenciamento de obras.<br>
             Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br>
@@ -42,16 +46,17 @@
             seus clientes, criando projetos personalizados, unindo a tradição<br>
             e a modernidade em nossos projetos.</p>
         </div>
-        <div class="bodyImg">
-            <img src="./assets/images/image1.png" alt="Imagem Sala">
-        </div>
+            <img class="bodyImg" src="./assets/images/image1.png" alt="Imagem Sala">
     </section>
     <!-- FORMULÁRIOS DO SITE -->
-    <footer>
-        <h2>Conheça mais sobre nossos serviços:</h2>
-        <input type="text" name="" id="" placeholder="Nome">
-        <input type="text" name="" id="" placeholder="Email">
-        <button>Fale Conosco</button>
-    </footer>
+    <form action="https://api.sheetmonkey.io/form/g7WnTosxMkqSqEsyawHYhi" method="post">
+        <div class="content formContent">
+            <h2>Conheça mais sobre nossos serviços:</h2>
+            <input type="text" id="" placeholder="Nome" name="Name" required>
+            <input type="text" id="" placeholder="Email" name="Email" required>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit" value="Sign Up">Fale Conosco</button>
+        </div>
+    </form>
 </body>
 </html>
